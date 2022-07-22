@@ -126,6 +126,7 @@ STATICFILES_DIRS = [
 MEDIA_URl='/media/'
 MEDIA_ROOT=BASE_DIR / 'media'
 LOGIN_REDIRECT_URL='/profile/'
+EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
